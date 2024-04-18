@@ -1,0 +1,27 @@
+.lista {
+	height: 700px;
+	overflow: auto;
+	border: 3px solid #DE096F;
+}
+
+.lista__tarea {
+	width: 300px;
+	height: 150px;
+	padding: 0.5rem;
+	box-sizing: border-box;
+	background-color: #1FC4DE;
+	color: white;
+}
+
+.lista__tarea:hover {
+	background-color:#5B888F;
+}
+
+
+.lista__tarea--terminada {
+	border: 3px solid #DE096F;
+}
+
+.lista__tarea--pendiente {
+	border: 3px solid #DEC91F;
+}
