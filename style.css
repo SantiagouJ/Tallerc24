@@ -1,3 +1,9 @@
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	flex-direction: column;	
+
+}
 .lista {
 	height: 700px;
 	overflow: auto;
@@ -5,12 +11,12 @@
 }
 
 .lista__tarea {
-	width: 300px;
-	height: 150px;
+	width: 100px;
+	height: 35px;
 	padding: 0.5rem;
+	border-radius: 50px;
 	box-sizing: border-box;
-	background-color: #1FC4DE;
-	color: white;
+	margin: 0.5rem;
 }
 
 .lista__tarea:hover {
@@ -20,6 +26,7 @@
 
 .lista__tarea--terminada {
 	border: 3px solid #DE096F;
+	text-decoration: line-through;
 }
 
 .lista__tarea--pendiente {
